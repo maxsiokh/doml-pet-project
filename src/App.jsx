@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './Pages/Header/Header'
+import Header from './Components/Header/Header'
+import Intro from './Pages/Intro'
 
 function App() {
 	const [count, setCount] = useState(0)
@@ -8,9 +9,7 @@ function App() {
 	return (
 		<>
 			<Header />
-			<h1 className='text-3xl font-bold underline text-yellow-800'>
-				Hello world!
-			</h1>
+			<Intro />
 		</>
 	)
 }
