@@ -4,7 +4,7 @@ import Line from '../Components/Line/Line'
 
 export default function About() {
 	return (
-		<div className='flex items-center justify-between pt-10'>
+		<div className='flex items-center justify-between'>
 			<img src='about.png' className='' alt='' />
 			<div className='flex-col-reverse text-7xl leading-[1.3] text-left space-y-11'>
 				<div>

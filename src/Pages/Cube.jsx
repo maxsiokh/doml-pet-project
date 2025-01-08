@@ -3,7 +3,7 @@ import MainButton from '../Components/Button/MainButton'
 import Line from '../Components/Line/Line'
 export default function Cube() {
 	return (
-		<div className='flex items-center justify-between pt-10'>
+		<div className='flex items-center justify-between '>
 			<div
 				id='intro__text'
 				className='flex-col-reverse text-7xl leading-[1.3] text-left space-y-11'

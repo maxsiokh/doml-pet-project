@@ -24,7 +24,7 @@ const iconCompanies = [
 export default function Companies() {
 	return (
 		<>
-			<div className='justify-items-center pt-36 grid grid-cols-5 gap-4'>
+			<div className='justify-items-center grid grid-cols-5 gap-4'>
 				{iconCompanies.map(item => (
 					<img
 						src={`/companies icons/${item}`}
