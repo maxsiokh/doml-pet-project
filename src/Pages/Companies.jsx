@@ -33,7 +33,7 @@ export default function Companies() {
 					/>
 				))}
 			</div>
-			<p className='font-extralight text-xl pt-24 pb-24'>
+			<p className='font-extralight text-xl pt-16 pb-24'>
 				Trusted by the world’s most ambitious teams.
 			</p>
 		</>
