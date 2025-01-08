@@ -5,6 +5,9 @@ import About from './Pages/About'
 import Companies from './Pages/Companies'
 import Cube from './Pages/Cube'
 import Intro from './Pages/Intro'
+import Mail from './Pages/Mail'
+import Outo from './Pages/Outo'
+import PinkCube from './Pages/PinkCube'
 import Reviews from './Pages/Reviews'
 
 function App() {
@@ -18,6 +21,9 @@ function App() {
 			<Cube />
 			<About />
 			<Reviews />
+			<PinkCube />
+			<Outo />
+			<Mail />
 		</div>
 	)
 }
