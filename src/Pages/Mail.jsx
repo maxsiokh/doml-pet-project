@@ -4,8 +4,8 @@ import MainButton from '../Components/Button/MainButton.jsx'
 export default function Mail() {
 	return (
 		<div>
-			<div className='flex px-20 pt-24 pb-28 items-center rounded-3xl inset-0 rounded-full bg-gradient-to-r from-pink-600 via-[#5200FF] to-cyan-300'>
-				<img className='max-w-96' src='7.png' alt='' />
+			<div className='flex px-20 pt-24 pb-28 items-center  inset-0 rounded-3xl bg-gradient-to-r from-pink-600 via-[#5200FF] to-cyan-300'>
+				<img className='max-w-xl' src='7.png' alt='' />
 				<div id='text' className='text-left space-x-3 space-y-7 '>
 					<h1 className='text-5xl'>Get exponential reach via AI Marketing</h1>
 
