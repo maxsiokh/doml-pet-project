@@ -25,8 +25,9 @@ export default function Companies() {
 	return (
 		<>
 			<div className='justify-items-center grid grid-cols-5 gap-4'>
-				{iconCompanies.map(item => (
+				{iconCompanies.map((item, i) => (
 					<img
+					key={i}
 						src={`/companies icons/${item}`}
 						alt='item'
 						className='w-24 h-24 object-contain'
