@@ -47,17 +47,16 @@ export default function Reviews() {
 	}
 
 	return (
-		<div className='inset-0 rounded-3xl bg-gradient-to-r from-pink-600 via-[#5200FF] to-cyan-300'>
-			<div className='flex px-20 pt-24 items-center  '>
+		<div className='inset-0 rounded-3xl bg-gradient-to-r from-pink-600 via-[#5200FF] to-cyan-300 max-lg:space-y-14 '>
+			<div className='flex px-20 pt-24 items-center '>
 				<div className='space-x-1'>
-					{/* {currentTestimonial.map(item => ( */}
-					<div className='flex'>
+					<div className='flex max-lg:flex-col max-lg:items-center  '>
 						<img
-							className='w-1/4 h-1/4'
+							className='w-1/4 h-1/4 max-lg:w-3/4'
 							src={currentTestimonial.avatar}
 							alt=''
 						/>
-						<div id='text' className='text-left space-y-4  '>
+						<div id='text' className='text-left space-y-4 max-lg:text-center '>
 							<p className='text-xl font-semibold leading-10 '>
 								{currentTestimonial.text}
 							</p>

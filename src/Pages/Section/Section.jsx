@@ -6,13 +6,13 @@ import TitleSection from './TitleSection'
 export default function Section({ text, srcImg, reverse }) {
 	return (
 		<div
-			className={`flex items-center justify-between ${
+			className={`flex items-center justify-between max-lg:flex-col-reverse ${
 				reverse ? 'flex-row-reverse' : 'flex-row'
 			} `}
 		>
 			<div
 				id='intro__text'
-				className='text-7xl leading-[1.3] text-left space-y-11'
+				className=' text-7xl leading-[1.3] text-left space-y-11 max-lg:text-center items-center'
 			>
 				<TitleSection title={'AI Marketing.'} subtitle={'Optimized Reach.'} />
 				<p className='text-2xl font-extralight'>{text}</p>
